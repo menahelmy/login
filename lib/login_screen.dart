@@ -33,9 +33,9 @@ class LoginScreen extends StatefulWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
             children: [
              Text(
-               'login',
+               'LOGIN',
                style: TextStyle(
-                 fontSize: 50.0,
+                 fontSize: 40.0,
                  fontWeight: FontWeight.bold,
                ),
              ),
@@ -121,7 +121,9 @@ class LoginScreen extends StatefulWidget {
                     'Don\'t have an account?',
                   ),
                   TextButton(
-                    onPressed: (){},
+                    onPressed: (){
+                      
+                    },
                     child: Text(
                     'Register Now',
                   ),
